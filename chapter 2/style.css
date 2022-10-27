@@ -1,0 +1,16 @@
+.red
+{
+    background-color: rgb(119, 48, 48);
+    height: 140px;
+    color: aqua;
+}
+.blue
+{
+    background-color: rgb(12, 12, 43);
+    color: rgb(230, 7, 7);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}

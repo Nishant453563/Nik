@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        li{
+            /* display: inline; */
+             color: rgb(170, 20, 20); 
+            list-style: circle;
+        }
+        header{
+            height: 100px;
+            background-color: black;
+        }
+        .contain{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            position: relative;
+            z-index: 1;
+        }
+        .box{
+            background-color: blue;
+            height: 200px;
+            width: 200px;
+            position: fixed;
+        }
+        .box2{
+            background-color:yellow;
+            height: 200px;
+            width: 200px;
+            position: relative;
+            top: 0px;
+            right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contain"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore cum soluta sit quasi reiciendis quibusdam ipsum dignissimos, ea alias animi, quaerat nihil totam. Accusantium animi asperiores harum delectus consequatur esse!</p>
+     <div class="box">I am box</div>
+     <div class="box2">I am box2</div>
+    </div>
+    <ul>
+        <li>apple</li>
+        <li>banana</li>
+    </ul>
+</body>
+</html>

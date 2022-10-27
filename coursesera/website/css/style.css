@@ -1,0 +1,32 @@
+body{
+    font-size: 16px;
+    color: white;
+    background-color: brown;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#header-nav
+{
+background-color: yellow;
+border-radius: 0%;
+border: 0;
+
+}
+#image-log
+{
+    background: url('../images/download.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+    
+}
+.navbar{
+    float: left;
+}
+
+#img2
+{
+    
+    width: 50px;
+    height: 50px;
+    
+}
